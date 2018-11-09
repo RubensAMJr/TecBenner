@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<TaskPortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>CAIXA</Id>
+  <Title>Acessa Caixa</Title>
+  <Level>Benner</Level>
+  <Reports />
+  <Pages>
+    <string>PAGES_CAIXA_MENU</string>
+    <string>PAGES_MESACOMANDA_PAGAR</string>
+  </Pages>
+  <Components />
+  <Operations>
+    <string>MESACOMANDAS|PAGAPEDIDO</string>
+    <string>MESACOMANDAS|UPDATE</string>
+    <string>MESACOMANDAS|VIEW</string>
+  </Operations>
+  <Process />
+  <Tasks />
+</TaskPortable>

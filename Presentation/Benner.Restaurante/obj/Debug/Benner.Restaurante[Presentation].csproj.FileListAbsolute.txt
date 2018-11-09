@@ -1,0 +1,7 @@
+C:\Benner\Fontes\RESTAURANTE\WebApp\Bin\Benner.Restaurante.dll
+C:\Benner\Fontes\RESTAURANTE\WebApp\Bin\Benner.Restaurante.pdb
+C:\Benner\Fontes\RESTAURANTE\Presentation\Benner.Restaurante\obj\Debug\Benner.Restaurante[Presentation].csproj.CoreCompileInputs.cache
+C:\Benner\Fontes\RESTAURANTE\Presentation\Benner.Restaurante\obj\Debug\Benner.Restaurante[Presentation].csproj.CopyComplete
+C:\Benner\Fontes\RESTAURANTE\Presentation\Benner.Restaurante\obj\Debug\Benner.Restaurante.dll
+C:\Benner\Fontes\RESTAURANTE\Presentation\Benner.Restaurante\obj\Debug\Benner.Restaurante.pdb
+C:\Benner\Fontes\RESTAURANTE\Presentation\Benner.Restaurante\obj\Debug\Benner.Restaurante[Presentation].csprojAssemblyReference.cache

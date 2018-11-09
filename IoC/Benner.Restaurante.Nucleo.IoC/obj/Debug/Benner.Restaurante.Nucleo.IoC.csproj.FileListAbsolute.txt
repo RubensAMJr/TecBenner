@@ -1,0 +1,7 @@
+C:\Benner\Install\RESTAURANTE\Benner.Restaurante.Nucleo.IoC.dll
+C:\Benner\Install\RESTAURANTE\Benner.Restaurante.Nucleo.IoC.pdb
+C:\Benner\Fontes\RESTAURANTE\IoC\Benner.Restaurante.Nucleo.IoC\obj\Debug\Benner.Restaurante.Nucleo.IoC.csprojAssemblyReference.cache
+C:\Benner\Fontes\RESTAURANTE\IoC\Benner.Restaurante.Nucleo.IoC\obj\Debug\Benner.Restaurante.Nucleo.IoC.csproj.CoreCompileInputs.cache
+C:\Benner\Fontes\RESTAURANTE\IoC\Benner.Restaurante.Nucleo.IoC\obj\Debug\Benner.Restaurante.Nucleo.IoC.csproj.CopyComplete
+C:\Benner\Fontes\RESTAURANTE\IoC\Benner.Restaurante.Nucleo.IoC\obj\Debug\Benner.Restaurante.Nucleo.IoC.dll
+C:\Benner\Fontes\RESTAURANTE\IoC\Benner.Restaurante.Nucleo.IoC\obj\Debug\Benner.Restaurante.Nucleo.IoC.pdb

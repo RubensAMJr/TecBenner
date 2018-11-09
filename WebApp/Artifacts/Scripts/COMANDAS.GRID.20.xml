@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ScriptPortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ViewName>COMANDAS.GRID</ViewName>
+  <EntityName>COMANDAS</EntityName>
+  <Level>Benner</Level>
+  <Scripts>
+    <ScriptItemPortable>
+      <FunctionName>InitializeRow</FunctionName>
+      <LanguageName>IronPython</LanguageName>
+      <SourceCode>def InitializeRow(entity, row):
+    if (entity == None or row == None) : return
+    ativo = entity["OCUPADA"].GetBoolean()
+    if (ativo == None): ativo = False
+  
+   
+    row.GetCellByName("OCUPADA").Tooltip = "Comanda ocupada" if (ativo) else "Comanda disponível"
+    row.GetCellByName("OCUPADA").TextColor = "#ffff00" if (ativo) else "#00ff00"
+    row.GetCellByName("OCUPADA").FontIcon = "fa fa-thumbs-o-up fa-2x" if (ativo) else "fa fa-thumbs-o-down fa-2x"
+    
+   
+       
+</SourceCode>
+    </ScriptItemPortable>
+  </Scripts>
+</ScriptPortable>

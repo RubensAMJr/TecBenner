@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<RolePortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>COZINHA</Id>
+  <Title>Cozinheiro(A)</Title>
+  <Level>Benner</Level>
+  <Tasks>
+    <string>TAR_ACESSAPRODUTOS</string>
+    <string>TARACESSACOZINHA</string>
+  </Tasks>
+  <Roles />
+</RolePortable>

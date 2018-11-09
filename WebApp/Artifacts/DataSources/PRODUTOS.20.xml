@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DataSourcePortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Identifier>PRODUTOS</Identifier>
+  <Name>Produtos mais vendidos</Name>
+  <Content><![CDATA[<DataSourceDefinition>
+  <FromSql Alias="A" SelectCommand="SELECT TOP 4 COUNT(*) QUANTIDADE , (SELECT NOME FROM PRODUTO P WHERE P.HANDLE = PRODUTO) PRODUTO FROM ITEMPEDIDO GROUP BY PRODUTO ORDER BY QUANTIDADE DESC" />
+  <Fields>
+    <Field Alias="QUANTIDADE" From="A" Path="QUANTIDADE" />
+    <Field Alias="PRODUTO" From="A" Path="PRODUTO" />
+  </Fields>
+</DataSourceDefinition>
+]]></Content>
+  <Level>Benner</Level>
+</DataSourcePortable>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<TaskPortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>ADM</Id>
+  <Title>Administrador</Title>
+  <Level>Benner</Level>
+  <Reports />
+  <Pages>
+    <string>PAGES_CARTOES_FORM</string>
+    <string>PAGES_CARTOES_GRID</string>
+    <string>PAGES_COMANDAS_FORM</string>
+    <string>PAGES_COMANDAS_GRID</string>
+    <string>PAGES_FUNCIONARIOS_FORM</string>
+    <string>PAGES_FUNCIONARIOS_GRID</string>
+    <string>PAGES_MESAS_FORM</string>
+    <string>PAGES_MESAS_GRID</string>
+    <string>PAGES_TESTES_MENU</string>
+  </Pages>
+  <Components />
+  <Operations>
+    <string>CARTOES|ALTERARATIVO</string>
+    <string>CARTOES|DELETE</string>
+    <string>CARTOES|INSERT</string>
+    <string>CARTOES|UPDATE</string>
+    <string>CARTOES|VIEW</string>
+    <string>COMANDAS|DELETE</string>
+    <string>COMANDAS|INSERT</string>
+    <string>COMANDAS|UPDATE</string>
+    <string>COMANDAS|VIEW</string>
+    <string>FUNCIONARIOS|DELETE</string>
+    <string>FUNCIONARIOS|INSERT</string>
+    <string>FUNCIONARIOS|UPDATE</string>
+    <string>FUNCIONARIOS|VIEW</string>
+    <string>MESACOMANDAS|DELETE</string>
+    <string>MESACOMANDAS|INSERT</string>
+    <string>MESACOMANDAS|PAGAPEDIDO</string>
+    <string>MESACOMANDAS|UPDATE</string>
+    <string>MESACOMANDAS|VIEW</string>
+    <string>MESAS|DELETE</string>
+    <string>MESAS|INSERT</string>
+    <string>MESAS|UPDATE</string>
+    <string>MESAS|VIEW</string>
+  </Operations>
+  <Process />
+  <Tasks />
+</TaskPortable>

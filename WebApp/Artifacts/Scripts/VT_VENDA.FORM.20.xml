@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ScriptPortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ViewName>VT_VENDA.FORM</ViewName>
+  <EntityName>VT_VENDA</EntityName>
+  <Level>Benner</Level>
+  <Scripts>
+    <ScriptItemPortable>
+      <FunctionName>Load</FunctionName>
+      <LanguageName>IronPython</LanguageName>
+      <SourceCode>def Load(widget):
+    from Benner.Tecnologia.Common import EntityDefinition, EntityAssociation
+    import clr
+    convertedObject = clr.Convert(widget.Entity.Fields["COMANDA"], EntityAssociation)
+    widget.Entity.Fields["VALORTOTAL"] = convertedObject.ToString()
+</SourceCode>
+    </ScriptItemPortable>
+  </Scripts>
+</ScriptPortable>

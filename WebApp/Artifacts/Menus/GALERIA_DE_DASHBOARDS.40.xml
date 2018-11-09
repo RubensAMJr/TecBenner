@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<MenuPortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>GALERIA_DE_DASHBOARDS</Id>
+  <Level>Tecnologia</Level>
+  <MenuItems>
+    <MenuItemPortable>
+      <Id>K9_PAGES_MESASCUSTOM</Id>
+      <Order>100</Order>
+      <Type>Page</Type>
+      <Name>Mesas</Name>
+      <PageId>K9_PAGES_MESASCUSTOM</PageId>
+      <Active>true</Active>
+      <Level>Especifico</Level>
+    </MenuItemPortable>
+  </MenuItems>
+</MenuPortable>

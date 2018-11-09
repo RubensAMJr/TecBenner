@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<TaskPortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>TAR_ACESSAPRODUTOS</Id>
+  <Title>Acessa Produtos</Title>
+  <Level>Benner</Level>
+  <Reports />
+  <Pages>
+    <string>PAGES_PRODUTO_FORM</string>
+    <string>PAGES_PRODUTO_GRID</string>
+  </Pages>
+  <Components />
+  <Operations>
+    <string>PRODUTO|DELETE</string>
+    <string>PRODUTO|INSERT</string>
+    <string>PRODUTO|MUDARFALTA</string>
+    <string>PRODUTO|UPDATE</string>
+    <string>PRODUTO|VIEW</string>
+  </Operations>
+  <Process />
+  <Tasks />
+</TaskPortable>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ScriptPortable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ViewName>PRODUTO.GRID</ViewName>
+  <EntityName>PRODUTO</EntityName>
+  <Level>Benner</Level>
+  <Scripts>
+    <ScriptItemPortable>
+      <FunctionName>InitializeRow</FunctionName>
+      <LanguageName>IronPython</LanguageName>
+      <SourceCode>def InitializeRow(entity, row):
+    if (entity == None or row == None) : return
+    ativo = entity["ESTAEMFALTA"].GetBoolean()
+    if (ativo == None): ativo = False
+    
+    row.GetCellByName("ESTAEMFALTA").Text = "SIM" if (ativo) else "NÃO"
+    row.GetCellByName("ESTAEMFALTA").TextColor = "#f72525" if (ativo) else "#00ff00"
+   
+       
+</SourceCode>
+    </ScriptItemPortable>
+  </Scripts>
+</ScriptPortable>
